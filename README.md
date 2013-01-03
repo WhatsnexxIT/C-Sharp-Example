@@ -12,8 +12,8 @@ The whatsnexx [ticketbus](https://github.com/whatsnexx/Whatsnexx/wiki/TicketBus)
 3. <b>TermName:</b>
 4. <b>SubjectCode:</b>
 5. <b>SubjectTypeId:</b>
-6. <b>ExecutionEnvironment</b>
-7. <b>Attributes</b>
+6. <b>ExecutionEnvironment:</b>
+7. <b>Attributes:</b> A list of attributes defined in the [infogate](https://github.com/whatsnexx/Whatsnexx/wiki/InfogateView)
 
 Getting Help
 -----------
