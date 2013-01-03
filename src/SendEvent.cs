@@ -10,12 +10,12 @@ namespace SendEventCSharpExample
     {
         public static void Main(string[] args)
         {
-            var accountId = new Guid("02040849-d23e-4ccc-9c8e-2bea340c8925");
-            const string ticketServiceUserName = "E7F171A8-229C-4983-B605-BD55E97F0C5D";
-            const string ticketServicePassword = "MDc0YmU5YTMtNGViMi00NjdmLTg4YzItOWM1MDU4Y2ZkZTA1";
-            const string term = "12DaysXmasOrder";
+            var accountId = new Guid("00000000-0000-0000-0000-000000000001");
+            const string ticketServiceUserName = "00000000-0000-0000-0000-000000000001";
+            const string ticketServicePassword = "MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAx";
+            const string term = "TestEvent";
             const string subjectCode = "psmelser@whatsnexx.com";
-            var subjectTypeId = new Guid("ccbd8c87-8c93-40c0-bf28-2596a4739cd2");
+            var subjectTypeId = new Guid("00000000-0000-0000-0000-000000000001");
 
             var attributes = (IEnumerable<Attribute>) new Dictionary<string, string>
                                                                   {
