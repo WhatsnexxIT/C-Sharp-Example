@@ -27,7 +27,7 @@ namespace SendEventCSharpExample
             const ExecutionEnvironments executionEnvironment = ExecutionEnvironments.Test;
 
             var sendEvent = new SendEventAction(attributes, executionEnvironment, accountId, subjectTypeId, subjectCode,
-                                                term, ticketServicePassword, ticketServiceUserName, "test");
+                                                term, ticketServicePassword, ticketServiceUserName, null);
             sendEvent.Execute();
         }
     }
