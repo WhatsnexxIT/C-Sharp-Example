@@ -23,7 +23,9 @@ namespace Whatsnexx.SendEventLibrary
         /// <summary>
         /// Initializes a new instance of the <see cref="T:System.Object"/> class.
         /// </summary>
-        public SendEventAction(IEnumerable<Attribute> attributes, ExecutionEnvironments executionEnvironment, Guid accountId, Guid subjectTypeId, string subjectCode, string term, string ticketServicePassword, string ticketServiceUserName, string ticketServiceBaseUri)
+        public SendEventAction(IEnumerable<Attribute> attributes, ExecutionEnvironments executionEnvironment,
+            Guid accountId, Guid subjectTypeId, string subjectCode, string term, string ticketServicePassword, 
+            string ticketServiceUserName, string ticketServiceBaseUri)
         {
             Attributes = attributes;
             ExecutionEnvironment = executionEnvironment;
