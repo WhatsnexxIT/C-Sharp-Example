@@ -8,8 +8,6 @@ namespace Whatsnexx.SendEventLibrary
 {
     public class SendEventAction
     {
-
-
         private static string TicketServiceBaseUri { get; set; }
         private static string TicketServiceUserName { get; set; }
         private static string TicketServicePassword { get; set; }
@@ -37,7 +35,10 @@ namespace Whatsnexx.SendEventLibrary
             TicketServiceUserName = ticketServiceUserName;
             TicketServiceBaseUri = ticketServiceBaseUri;
         }
-        
+        /// <summary>
+        /// Creates a GatewayStorageAccount with the credentials given in parameters.
+        /// </summary>
+        /// <returns></returns>
         private static GatewayStorageAccount GetAccount()
         {
             if (string.IsNullOrEmpty(TicketServiceBaseUri))
@@ -48,12 +49,13 @@ namespace Whatsnexx.SendEventLibrary
                                              TicketServiceBaseUri);
         }
 
-        //Then you create the client using the GatewayStorageAccount object
+        /// <summary>
+        /// Creates a TicketBusClient and sends an event to the TicketBus.
+        /// </summary>
         public void Execute()
         {
             var client = new TicketBusClient(GetAccount());
 
-            //And then, you call the SendEventAction(or whatever method needed from TicketBusClient)
 
             client.SendEvent(SubjectTypeId, SubjectCode, Term, Attributes, ExecutionEnvironment);
 
