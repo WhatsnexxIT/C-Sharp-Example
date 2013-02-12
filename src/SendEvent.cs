@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Attribute = CSharpExample.TicketBusService.Attribute;
 using CSharpExample.TicketBusService;
 namespace CSharpExample
@@ -7,10 +7,12 @@ namespace CSharpExample
     {
         static void Main(string[] args)
         {
-            const string userName = "00000000-0000-0000-0000-000000000001";
-            const string password = "MDAwMDAwMDAtMDAwMC0wMDAwLTAwMDAtMDAwMDAwMDAwMDAx";
-            const string accountId = "00000000-0000-0000-0000-000000000001";
-            const string subjectTypeId = "00000000-0000-0000-0000-000000000001";
+            const string userName = "%YourUserName%";
+            const string password = "%YourPassword%";
+            //your account id
+            const string accountId = "00000000-0000-0000-0000-000000000000";
+            //the subject type id
+            const string subjectTypeId = "00000000-0000-0000-0000-000000000000";
             const string subject = "%YourSubject%";
 
             //create out objects
