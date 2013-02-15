@@ -7,11 +7,11 @@ namespace CSharpExample
     {
         static void Main(string[] args)
         {
-            const string userName = "<%Your Username%>";
-            const string password = "<%Your Password%>";
-            const string accountId = "<%Your Account Id%>";
-            const string subjectTypeId = "<%Your Subject Id%>";
-            const string subject = "<%Your Subject%>";
+            const string userName = "{Your Username}";
+            const string password = "{Your Password}";
+            const string accountId = "{Your Account Id}";
+            const string subjectTypeId = "{Your Subject Id}";
+            const string subject = "{Your Subject}";
 
             //create out objects
             TicketBusResponse response;
