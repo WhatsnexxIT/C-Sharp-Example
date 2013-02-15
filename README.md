@@ -22,7 +22,7 @@ Process
 <ol>
 <li>Open Visual Studio and create a new Console Application.
   <ol type="a">
-    <li>In the <b>File</b> menu of Visual Studio point to <b>New</b> and click <b>Protect</b>. A  <b>New Project</b> dialog box will appear.</li>
+    <li>In the <b>File</b> menu point to <b>New</b> and click <b>Protect</b>. A  <b>New Project</b> dialog box will appear.</li>
     <li>In the  <b>New Project</b> dialog box, select <b>Visual C#</b> from the <b>Installed Templates</b> box, and select <b>Console Application</b> from the list provided</li>
     <li>Enter the <b><i>'CSharpExample'</i></b> in the <b>Name</b> box and enter the location you would like to save the project in the <b>Location</b> box.</li>
     <li>Click <b>OK</b></li>
