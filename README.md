@@ -16,7 +16,7 @@ The whatsnexx [ticketbus](https://github.com/whatsnexx/Whatsnexx/wiki/TicketBus)
 6. <b>ExecutionEnvironment:</b> Specifies the Whatsnexx environment you are sending the event request. A <b>Constellation</b> must exist in the chosen environment for the event to be triggered. The available Environments are: Test, Stage, and Production.
 7. <b>Attributes:</b> A list of attributes that are used by the event.
 
-Process
+Steps
 ----------------
 
 <ol>
