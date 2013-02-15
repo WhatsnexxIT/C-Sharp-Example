@@ -92,7 +92,7 @@ namespace CSharpExample
 
 Getting Help
 -----------
-[Whatsnexx Full Documentation]()  Available Soon
+[Whatsnexx Full Documentation]()  Available Soon  
 [MSDN](http://msdn.microsoft.com/en-us/library/dd456779.aspx)
 
 
