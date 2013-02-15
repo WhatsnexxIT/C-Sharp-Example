@@ -1,7 +1,7 @@
 Send Events Using C#
 ===============
 
-Describes how to send an event through the Whatsnexx.TicketBus from a C# project
+Describes how to send an event through the Whatsnexx.TicketBus from a Console application in Visual Studio.
 
 Getting Started
 ------------------
@@ -16,6 +16,26 @@ The whatsnexx [ticketbus](https://github.com/whatsnexx/Whatsnexx/wiki/TicketBus)
 6. <b>ExecutionEnvironment:</b> Specifies the Whatsnexx environment you are sending the event request. A <b>Constellation</b> must exist in the chosen environment for the event to be triggered. The available Environments are: Test, Stage, and Production.
 7. <b>Attributes:</b> A list of attributes that are used by the event.
 
+Process
+----------------
+
+<ol>
+<li>Open Visual Studio and create a new Console Application.
+  <ol type="a">
+    <li>In the <b>File</b> menu of Visual Studio point to <b>New</b> and click <b>Protect</b>. A  <b>New Project</b> dialog box will appear.</li>
+    <li>In the  <b>New Project</b> dialog box, select <b>Visual C#</b> from the <b>Installed Templates</b> box, and select <b>Console Application</b> from the list provided</li>
+    <li>Enter the 'WhatsnexxTest' in the <b>Name</b> box and enter the location you would like to save the project in the <b>Location</b> box.</li>
+    <li>Click OK</li>
+  </ol>
+</li>
+<li>Add a <b>Service Reference</b> for the <b>Whatsnexx TicketBusService</b>
+<ol type="a">
+        <li></li>
+</ol>
+</li>
+<li><li>
+<li><li>
+</ol>
 Getting Help
 -----------
 [Whatsnexx Full Documentation](https://github.com/whatsnexx/Whatsnexx/wiki)  
