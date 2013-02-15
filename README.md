@@ -92,8 +92,9 @@ namespace CSharpExample
 
 Getting Help
 -----------
-[Whatsnexx Full Documentation](https://github.com/whatsnexx/Whatsnexx/wiki)  
-[Ticketbus](https://github.com/whatsnexx/Whatsnexx/wiki/TicketBus)  
+[Whatsnexx Full Documentation]()  Available Soon
+[MSDN](http://msdn.microsoft.com/en-us/library/dd456779.aspx)
+
 
 *****
 [Top](https://github.com/paulsmelser/PHP-Send-Event/blob/master/README.md#send-events-using-php)
