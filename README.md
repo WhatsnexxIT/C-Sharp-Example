@@ -50,13 +50,13 @@ namespace CSharpExample
     {
         static void Main(string[] args)
         {
-            const string userName = "<%Your Username%>";
-            const string password = "<%Your Password%>";
+            const string userName = "<%Your <b>Username</b>%>";
+            const string password = "<%Your <b>Password</b>%>";
             //your account id
-            const string accountId = "<%Your Account Id%>";
+            const string accountId = "<%Your <b>Account Id</b>%>";
             //the subject type id
-            const string subjectTypeId = "<%Your Subject Id%>";
-            const string subject = "<%Your Subject%>";
+            const string subjectTypeId = "<%Your<b> Subject Id</b>%>";
+            const string subject = "<%Your <b>Subject</b>%>";
 
             //create out objects
             TicketBusResponse response;
