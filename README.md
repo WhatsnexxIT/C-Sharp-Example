@@ -40,7 +40,7 @@ Process
 </li>
 </ol>
 
-```java
+```csharp
 using System;
 using Attribute = CSharpExample.TicketBusService.Attribute;
 using CSharpExample.TicketBusService;
@@ -50,13 +50,13 @@ namespace CSharpExample
     {
         static void Main(string[] args)
         {
-            const string userName = "%YourUserName%";
-            const string password = "%YourPassword%";
+            const string userName = "%Your Username%";
+            const string password = "%Your Password%";
             //your account id
-            const string accountId = "00000000-0000-0000-0000-000000000000";
+            const string accountId = "%Your Account Id%";
             //the subject type id
-            const string subjectTypeId = "00000000-0000-0000-0000-000000000000";
-            const string subject = "%YourSubject%";
+            const string subjectTypeId = "You Subject Id";
+            const string subject = "%You rSubject%";
 
             //create out objects
             TicketBusResponse response;
