@@ -31,7 +31,7 @@ Process
 <li>Add a <b>Service Reference</b> for the <b>Whatsnexx TicketBusService</b>
 <ol type="a">
         <li>In the <b>Solution Explorer</b> right click on <b>References</b> in the project <b>CSharpExample</b> and left click on <b>Add Service Reference</b>. The <b>Add Service Reference</b> dialog box will open.</li>
-        <li>Enter<i>'https://ticketbusstage.whatsnexx.com/TicketBusService.svc'</i> in the <b>Address</b> box and click <b>Go. TicketBusService</b> will appear shortly.</li>
+        <li>Enter <i>'https://ticketbusstage.whatsnexx.com/TicketBusService.svc'</i> in the <b>Address</b> box and click <b>Go. TicketBusService</b> will appear shortly.</li>
         <li>Enter <b><i>'TicketBusService'</i></b> in the <b>Namespace</b> box and click <b>OK</b>. The <b>Service Model</b> reference will be added to the the project <b>References</b> and the <b>Service References</b> will appear with <b>TicketBusService</b> added as a service.
         <ul><li>To view the service API, double click on <b>TicketBusService</b> under <b>Service References</b>. The <b>Object Browser</b> will appear.</li><li>Expand <b>CSharpExample.TicketBusService</b> and select objects in the explorer to view the methods available.</li></ul></li>
 </ol>
