@@ -95,7 +95,7 @@ namespace CSharpExample
 
 Getting Help
 -----------
-[Whatsnexx Full Documentation](http://whatsnexx.github.com/)  
+[Whatsnexx API Documentation](http://whatsnexx.github.com/)  
 [MSDN Windows Communication Foundation (WCF)](http://msdn.microsoft.com/en-us/library/dd456779.aspx)
 
 
