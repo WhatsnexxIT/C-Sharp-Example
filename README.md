@@ -5,7 +5,7 @@ Describes how to send an event through the Whatsnexx.TicketBus from a Console ap
 
 Getting Started
 ------------------
-The whatsnexx [ticketbus](https://github.com/whatsnexx/Whatsnexx/wiki/TicketBus) handles REST and SOAP Web Service request to send events. In this example, we will demonstrate how to send and event to the Whatsnexx ticketbus using a WCF client. If you are not familiar with WCF, the MSDN documentation can be found [here](http://msdn.microsoft.com/en-us/library/dd456779.aspx). You will need following to send a request to the [ticketbus](https://github.com/whatsnexx/Whatsnexx/wiki/TicketBus) service.
+The whatsnexx ticketbus handles REST and SOAP Web Service request to send events. In this example, we will demonstrate how to send and event to the Whatsnexx ticketbus using a WCF client. If you are not familiar with WCF, the MSDN documentation can be found [here](http://msdn.microsoft.com/en-us/library/dd456779.aspx). You will need following to send a request to the ticketbus service.
 
 1. <b>Account Id:</b> Provided by Whatsnexx.
 2. <b>Username:</b> Provided by Whatsnexx.
