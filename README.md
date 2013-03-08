@@ -1,7 +1,10 @@
 Send Events Using C#
 ===============
 
-Describes how to send an event through the Whatsnexx.TicketBus from a Console application in Visual Studio.
+Describes how to send an event through the Whatsnexx.TicketBus from a Console application using Visual Studio.
+
+<h5>View examples in <a href="https://github.com/whatsnexx/Java_Example">Java</a> and <a href="https://github.com/whatsnexx/PHP_Example">PHP</a>.</h5>
+
 
 Getting Started
 ------------------
