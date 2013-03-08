@@ -100,5 +100,5 @@ Getting Help
 
 
 *****
-[Top](https://github.com/paulsmelser/PHP-Send-Event/blob/master/README.md#send-events-using-php)
+[Top](#)
 
