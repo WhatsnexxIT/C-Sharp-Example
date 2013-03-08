@@ -11,7 +11,7 @@ The whatsnexx ticketbus handles REST and SOAP Web Service request to send events
 2. <b>Username:</b> Provided by Whatsnexx.
 2. <b>Password:</b> Provided by Whatsnexx.
 3. <b>TermName:</b> This is the name of the event that is to be triggered by the send event.
-4. <b>SubjectCode:</b> The unique identifier for your [subject](). This usually represents <b>who</b> you would like to send the event to.
+4. <b>SubjectCode:</b> The unique identifier for your subject. This usually represents <b>who</b> you would like to send the event to.
 5. <b>SubjectTypeId:</b> A unique identitfier for the subject type. The subject type defines the context under which events are sent.
 6. <b>ExecutionEnvironment:</b> Specifies the Whatsnexx environment you are sending the event request. A <b>Constellation</b> must exist in the chosen environment for the event to be triggered. The available Environments are: Test, Stage, and Production.
 7. <b>Attributes:</b> A list of attributes that are used by the event.
