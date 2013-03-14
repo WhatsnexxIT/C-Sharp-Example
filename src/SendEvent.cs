@@ -10,9 +10,9 @@ namespace CSharpExample
             const string userName = "{Your Username}";
             const string password = "{Your Password}";
             const string accountId = "{Your Account Id}";
-            const string subjectTypeId = "{Your Subject Id}";
-            const string subject = "{Your Subject}";
-
+            const string subjectTypeId = "{Your Subject Type Id}";
+            const string termName = "{Your Event}"
+            
             //create out objects
             TicketBusResponse response;
             string transactionId;
@@ -38,7 +38,7 @@ namespace CSharpExample
             };
 
             var success = client.SendEvent( accountId, ExecutionEnvironments.Stage,
-                subjectTypeId, subject, ticketBusSendEvent, out response, out transactionId);
+                subjectTypeId, termName, ticketBusSendEvent, out response, out transactionId);
 
             Console.WriteLine("Worked: " + success + Environment.NewLine + "TransactionId: " + transactionId);
             Console.ReadKey();
